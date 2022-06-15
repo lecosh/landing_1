@@ -13,22 +13,36 @@
             <nav class="header-nav">
                 <span class="logo">Logo</span>
                     <ul class="nav-list">
-                        <li class="nav-item">Blog</li>
                         <li class="nav-item">
-                            <img src="/img/twitter.svg" alt="twitter" class="twitter-logo">
-                            <span class="twitter">Twitter</span>
+                            <a href="" class="nav-link">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <img src="/img/discord.svg" alt="discord" class="discord-logo">
-                            <span class="discord">Discord</span>
+                            <a href="" class="nav-link">
+                                <img src="/img/twitter.svg" alt="twitter" class="twitter-logo">
+                                <span class="twitter">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <img src="/img/discord.svg" alt="discord" class="discord-logo">
+                                <span class="discord">Discord</span>
+                            </a>
                         </li>
                         <li class="nav-item zero"><button class="btn btn-primary">Open App</button></li>
                     </ul>
-                    <button class="menu">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line zero"></div>
-                    </button>
+                    <div class="menu-all">
+                        <button class="menu">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line zero"></div>
+                        </button>
+                        <div class="menu-container hidden">
+                            <a href="" class="menu-link">Blog</a>
+                            <a href="" class="menu-link">Twitter</a>
+                            <a href="" class="menu-link">Discord</a>
+                        </div>
+                    </div>
+                    
             </nav>
         </div>
     </header>
@@ -310,5 +324,6 @@
             
         </div>
     </footer>
+    <script src="/scripts/script.js"></script>
 </body>
 </html>
