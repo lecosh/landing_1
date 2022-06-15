@@ -482,6 +482,9 @@
     }
 }
 @media (max-width: 600px) {
+    .main{
+        overflow-x: hidden;
+    }
     .container{
         max-width: 400px;
     }
